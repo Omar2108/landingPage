@@ -1,0 +1,248 @@
+body{
+	margin: 0px auto;
+	padding: 0px auto;
+	width: 100%;
+	height: 100%;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+/*-----Encabezado-----*/
+
+.encabezado{
+	margin: auto 0px;
+	padding: auto 0px;
+	background: url("../img/fondo_encabezado.png") no-repeat;
+	width: 100%;
+	height: 400px;
+	background-size: cover;              
+    background-repeat:  no-repeat;
+    background-position: center center;
+    display: block;
+    justify-items: center;
+    text-align: center;
+}
+
+.logo{
+	width: 300px;
+	height: 200px;
+}
+
+.titulo{
+	color: white;
+	font-family: Bernard MT Condensed;
+}
+
+h3{
+	color: whitesmoke;
+}
+
+/*-----Menu-----*/
+.menu{
+	background: black;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 5px;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.lista{
+	display: inline;
+	text-decoration: none;
+}
+
+.nav{
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+	padding: 4px;
+	border: solid 1px blue;
+	width: 100px;
+	background: white;
+	display: inline-block;
+	border-radius: 10px;
+
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+/*-----Main-----*/
+
+.content{
+	width: 100%;
+	height: auto;
+}
+
+.subtitulo2{
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+	color: black;
+}
+
+.parrafo{
+	font-family: cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+.contentImg{
+	width: 100%;
+	display: inline-block;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+}
+
+.img{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+/*-------Listas----*/
+
+.lista2{
+	font-family: cursive;
+	font-size: 20px;
+
+
+}
+
+/*-------Formulario----*/
+
+.contentForm{
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	margin: 10px;
+	padding: 7px;
+}
+
+.formulario{
+	width: 900px;
+	height: auto;
+	margin: 10px;
+	border: solid 1px blue;
+	margin: 10px;
+	padding: 3px;
+}
+.texto{
+	font-family: cursive;
+	font-size: 20px;
+	margin: 10px;
+	padding: 3px;
+}
+
+.input{
+	margin: 10px;
+	padding: 3px;
+	width: 80%;
+	height: 20px;
+}
+
+select{
+	width: 80%;
+	height: 20px;
+	padding: 3px;
+	margin: 10px;
+}
+
+.parrafo2{
+	font-family: cursive;
+	font-size: 20px;
+	margin: 10px;
+	padding: 2px;
+}
+
+.contentBtn{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+}
+
+.btn{
+	margin: 20px;
+	padding: 4px;
+	background: blue;
+	border-radius: 10px;
+	width: 100px;
+}
+
+.checkbox{
+	margin: 10px;
+}
+
+textarea{
+	width: 80%;
+	height: auto;
+	margin: 10px;
+	padding: 3px;
+}
+
+
+/*-------footer-----*/
+
+.piePagina{
+	margin: auto 0px;
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	border: solid 1px black;
+
+}
+
+.content2{
+	display: inline-block;
+}
+
+.img2{
+	width: 140px;
+	height: 50px;
+}
+
+
+.img3{
+	width: 20px;
+	height: 20px;
+}
+
+.content3{
+	display: inline-block;
+}
+
+figure{
+	display: inline-block;
+}
+
+.figura2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.figura3{
+	display: inline-block;	
+	align-items: center;
+	justify-content: center;
+	margin: 4px;
+}
+
+
+
+
+
